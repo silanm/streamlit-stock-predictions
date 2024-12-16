@@ -35,7 +35,8 @@ def fetch_data_from_rapidapi(ticker, start, end, api_key):
     url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v3/get-historical-data"
     headers = {
         "X-RapidAPI-Key": api_key,
-        "X-RapidAPI-Host": "apidojo-yahoo-finance-v1.p.rapidapi.com"
+        # "X-RapidAPI-Host": "apidojo-yahoo-finance-v1.p.rapidapi.com"
+        "X-RapidAPI-Host": "yahoo-finance166.p.rapidapi.com"
     }
     params = {"symbol": ticker}
 
