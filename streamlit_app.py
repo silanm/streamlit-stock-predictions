@@ -15,7 +15,9 @@ st.title("Stock Prices Forecasting App")
 st.sidebar.header("Adjustable Parameters")
 
 # API key for Financial Modeling Prep
-api_key = st.sidebar.text_input("Enter Financial Modeling Prep API Key:", type="password", value="5X4d3etoabPqTH9MSMwtaKN0fff3eTmE")
+api_key = st.sidebar.text_input("Enter Financial Modeling Prep API Key:", type="password")
+# 5X4d3etoabPqTH9MSMwtaKN0fff3eTmE
+# https://site.financialmodelingprep.com/developer/docs/dashboard
 
 # Select stock ticker
 stock_ticker = st.sidebar.text_input("Enter Stock Ticker Symbol:", "AAPL")
